@@ -46,8 +46,30 @@ const alunosMaioresDeIdade = pessoas.filter(pessoa => {
   return pessoa.idade >= 18
 })
 
+// console.log(alunosMaioresDeIdade)
+
 // reduce
 const valorInicial = 0
 const somaDosNumeros = numeros.reduce((acumulador, valorAtual) => {
   return acumulador + valorAtual
 }, valorInicial)
+
+console.log(somaDosNumeros)
+
+const alunosMenoresDeIdade = pessoas.filter(pessoa => {
+  return pessoa.idade < 18
+})
+
+console.log(alunosMenoresDeIdade)
+
+const debora = pessoas.find(pessoa => pessoa.nome === 'Deborah W. Coulter')
+
+console.log(debora)
+
+// const comeca = pessoas.filter(pessoa => {
+//   return pessoa.nome === 'C'
+// })
+
+// const mediaIdade = pessoas.reduce((acumulador, valorAtual) => {
+//   return (acumulador + valorAtual.idade)*
+// })

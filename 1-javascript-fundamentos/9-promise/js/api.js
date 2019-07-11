@@ -1,4 +1,4 @@
-const pessoas = [
+  const pessoas = [
   {
     nome: 'Christie C. Craighead',
     idade: 15
